@@ -33,7 +33,7 @@ for process in range(numberOfProcess):
             lastMessage = activityStatus
             countLogs += 1
 
-path = './files/logs.csv'
+path = "../logs/logs.csv"
 
 with open(path, 'w', newline='') as f:
     writer = csv.writer(f,dialect=unix_dialect)
